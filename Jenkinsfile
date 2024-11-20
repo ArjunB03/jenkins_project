@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Run'){
             steps{
-                bat 'java a.java'
+                bat 'scp '
             }
         }
     }
