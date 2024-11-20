@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Run'){
             steps{
-                bat "scp text.txt" "pglab@10.7.7.3":"remotelog.txt"
+                bat "scp text.txt pglab@10.7.7.3:filepath" 
             }
         }
     }
