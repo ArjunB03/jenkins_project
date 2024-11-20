@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Run'){
             steps{
-                bat "scp text.txt pglab@10.7.7.3:filepath" 
+                bat "scp text.txt pglab@10.7.7.1:C:\Users\3122215002013esm\Desktop" 
             }
         }
     }
